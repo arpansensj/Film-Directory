@@ -14,7 +14,7 @@ const Card = ({ imgURL, title, genre, summary }) => {
           />
           <div className="p-4">
             <h1 className="text-lg font-extrabold">{title}</h1>
-            <p className="text-red-500 font-bold ">{genre}</p>
+            <p className="text-red-500 font-bold ">{genre.join(' ')}</p>
             <button
               onClick={() => setDetails(true)}
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-2"
