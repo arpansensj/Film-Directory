@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  background-image: url(C:\Users\DestroyerSJ\Desktop\FilmDirectory\src\assets\bg.svg);
+  background-image: url(./assets/bg.svg);
 }
 
 ::-webkit-scrollbar {
